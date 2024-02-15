@@ -1,12 +1,36 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
-      "default": true
+      "path": "core",
+      "default": true,
+      "package": "dffg",
+      "versionName": "beta 0.1",
+      "versionNumber": "0.0.0.NEXT",
+      "versionDescription": ""
+    },
+    {
+      "path": "builder",
+      "package": "dffg-builder",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.0.0.NEXT",
+      "default": false,
+      "versionDescription": "",
+      "dependencies": [ 
+        {
+            "package": "dffg",
+            "versionNumber": "0.1.0.LATEST"
+        }
+      ]
     }
   ],
   "name": "dynamic-form-field-generator",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "dffg": "0HoWU00000003qj0AA",
+    "dffg@0.0.0-1": "04tWU0000000G9dYAE",
+    "dffg-builder": "0HoWU00000003sL0AQ",
+    "dffg-builder@0.0.0-1": "04tWU0000000GBFYA2"
+  }
 }

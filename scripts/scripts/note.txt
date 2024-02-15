@@ -1,0 +1,8 @@
+sf org list
+
+
+
+sf package create --name "dffg" --package-type Unlocked --path "core" --target-dev-hub dffg
+
+sf package update --package "Expense App" --name "Expense Manager App" \
+--description "New Description" --error-notification-username me2@devhub.org
